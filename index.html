@@ -3,40 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Historia de Nike </title>
+    <title>La Historia de Nike</title>
     <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
     <style>
+        body {
+            text-align: center;
+        }
+        .container {
+            margin: 0 auto;
+            max-width: 800px;
+        }
         .otro-parrafo {
-            font-size: 2rem;
+            font-size: 1rem;
             color: #000000;
             margin-top: 15px;
         }
-        button{
+        button {
             font-size: x-large;
+            margin: 10px;
+        }
+        body.tema-oscuro {
+            background: #222;
+            color: #fff;
+        }
+        body.tema-oscuro .otro-parrafo {
+            color: #fff;
         }
     </style>
 </head>
 <body>
-    <div class="container"
-    <h1 style="font-size: 5rem; color: #000000; text-align: center; margin-top: 50px;">Nike una Historia de Perseverancia</h1>
-      <button id="temaBtn">Cambiar a Tema Oscuro</button>
+    <div class="container">
+        <h1 style="font-size: 5rem; color: #000000; margin-top: 30px;">
+            Nike una Historia de Perseverancia
+        </h1>
 
-    <img src="logo nike.png"Descripción de la imagen">
-    <div class="seccion"
-    <p class="otro-parrafo">Disciplina, compromiso y sacrificio. Estas fueron las claves del exito de los fundadores de Nike</p>
-    </div class="seccion"
-    <p>Fundadores</p>
+        <img src="logo nike.png" alt="Logo de Nike" style="display:block; margin: 0 auto;">
 
-    <img src="Phil Knight.jpeg"
-    <p >Phil Knight fue el visionario, que deseaba reinvertar las industria del calzado deportivo, aventurandose a Japon donde consiguio un proveedor, que le vendia zapatos deportivos al por mayor a Phil, los cuales comenzo a vender en entradas de universidades.</p>
-    
-    <div style="text-align: center; margin-top: 30px;">
-        <button onclick="cambiarTema()">Cambiar Tema</button>
+        <div class="seccion">
+            <p class="otro-parrafo">
+                Disciplina, compromiso y sacrificio. Estas fueron las claves del éxito de los fundadores de Nike.
+            </p>
+        </div>
+
+        <h2>Fundadores</h2>
+
+        <img src="Phil Knight.jpeg" alt="Phil Knight" style="display:block; margin: 0 auto;">
+        <p>
+            Phil Knight fue el visionario que deseaba reinventar la industria del calzado deportivo, aventurándose a Japón donde consiguió un proveedor que le vendía zapatos deportivos al por mayor. Phil comenzó a venderlos en entradas de universidades.
+        </p>
     </div>
-</div>
-    
-    <script src="actions.js"></script>
 </body>
-</html>
