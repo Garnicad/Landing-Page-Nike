@@ -8,7 +8,11 @@ p.descripcion {
     font-size: 25px;
     font-style:unsent;
     text-align: center;
+    
     }
+p.otro-parrafo{
+   transform:rotate(0.15turn); 
+}
     :root {
         /*Colores Marca Nike*/
         --Blanco: #FFFFFF;
