@@ -10,8 +10,6 @@ p.descripcion {
     text-align: center;
     
     }
-p.otro-parrafo{
-   transform:rotate(0.15turn); 
 }
     :root {
         /*Colores Marca Nike*/
@@ -19,3 +17,25 @@ p.otro-parrafo{
         --Negro: #111111;
         --Blanco-Ligeramente-Opaco: ##E5E5E5;
         }
+
+    /* Animación para mover el logo de Nike de lado a lado */
+    @keyframes mover-lado-a-lado {
+        0% {
+            left: 0;
+        }
+        50% {
+            left: calc(100% - 150px); /* 150px es el ancho de la imagen, ajusta si es necesario */
+        }
+        100% {
+            left: 0;
+        }
+    }
+
+    .logo-animado {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 150px;
+        animation: mover-lado-a-lado 3s ease-in-out infinite;
+        z-index: 10;
+    }
