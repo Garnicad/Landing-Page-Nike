@@ -11,5 +11,12 @@ Tipografia de Nike es Futura Bold Condensed Oblique
 #### Objetivo
 - Impactar a nuevas generaciones, con esta historia de exito, que puede llegar a inspirar a cualquiera 
 - Informar sobre hisotrias de exito empresarial 
-##### Diseño Visual
+##### Proposito (Metodologia historia)
+El objetivo de la pagina es inspirar a los jovenes, para crear un emprendimiento, atraves de la historia de Nike.
+¿Quien es el usuario objetivo?
+¿Que problema tiene o que necesita resolver?
+¿Que gana el usuario?
+¿Como ayudo de forma unica?
+
+###### Diseño Visual
 https://www.figma.com/design/7Rlm1SWAgdJpdd4zh7JqlS/Nike?node-id=0-1&t=PiWA9SAKP4ajdoPi-1
